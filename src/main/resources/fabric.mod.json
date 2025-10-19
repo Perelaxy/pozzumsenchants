@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "pe",
+	"version": "${version}",
+	"name": "PozzumsEnchants",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pe/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pozzums.PozzumsEnchants"
+		],
+		"fabric-datagen": [
+			"net.pozzums.PozzumsEnchantsDataGenerator"
+		],
+      "client": [
+        "net.pozzums.PozzumsEnchantsClient"
+      ]
+
+	},
+	"mixins": [
+		"pe.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
