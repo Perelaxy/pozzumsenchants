@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:enchantment",
+  "treasure": false,
+  "rarity": "rare",
+  "categories": ["leggings"],
+  "min_cost": 1,
+  "max_cost": 10,
+  "max_level": 1,
+  "allowed_slots": ["legs"]
+}
